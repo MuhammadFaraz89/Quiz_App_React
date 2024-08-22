@@ -69,6 +69,7 @@
 
 } */
 
+/* Base container styles */
 .container {
     max-width: 80%; /* Smaller container size */
     width: 50%;   /* Reduced width */
@@ -146,7 +147,6 @@
     margin: auto;
     font-size: 16px; /* Smaller font-size */
     color: #7f8c8d; /* Light gray text */
-    
 }
 
 .container .correct {
@@ -162,3 +162,83 @@
 #result{
     text-align: center;
 }
+
+/* Media queries */
+
+/* For mobile screens up to 480px */
+@media (max-width: 480px) {
+    .container {
+        width: 90%; /* Increase width for better fit on mobile */
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+
+    .container h1 {
+        font-size: 24px; /* Smaller font-size for h1 */
+    }
+
+    .container h2 {
+        font-size: 18px; /* Smaller font-size for h2 */
+    }
+
+    .container ul li {
+        height: 45px; /* Smaller height for list items */
+        font-size: 16px; /* Smaller font-size for list items */
+    }
+
+    .container button {
+        width: 150px; /* Smaller button width */
+        height: 40px; /* Smaller button height */
+        font-size: 16px; /* Smaller font-size for button */
+    }
+
+    .container .index {
+        font-size: 14px; /* Smaller font-size for index */
+    }
+}
+
+/* For tablet screens between 481px and 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: 80%; /* Adjust width for tablets */
+        padding: 20px; /* Slightly reduced padding for tablets */
+    }
+
+    .container h1 {
+        font-size: 28px; /* Adjusted font-size for h1 */
+    }
+
+    .container h2 {
+        font-size: 18px; /* Adjusted font-size for h2 */
+    }
+
+    .container ul li {
+        height: 50px; /* Adjusted height for list items */
+        font-size: 17px; /* Adjusted font-size for list items */
+    }
+
+    .container button {
+        width: 180px; /* Adjusted button width */
+        height: 45px; /* Adjusted button height */
+        font-size: 18px; /* Adjusted font-size for button */
+    }
+
+    .container .index {
+        font-size: 15px; /* Adjusted font-size for index */
+    }
+}
+
+/* For screens smaller than 768px (typically phones) */
+@media (max-width: 767px) {
+    body {
+      font-size: 14px; /* Example: smaller font size for mobile */
+    }
+  }
+  
+  /* For screens between 768px and 1024px (typically tablets) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* Your tablet styles here */
+    body {
+      font-size: 16px; /* Example: slightly larger font size for tablets */
+    }
+  }
+  

@@ -1,0 +1,164 @@
+/* .container{
+    width: 640px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+    
+}
+.container h1{
+    font-size: 48px;
+    text-align: center;
+}
+.container hr{
+    height: 3px;
+    border: none;
+    background: #707070;
+}
+
+.container h2{
+    font-size: 27px;
+    font-weight: 600px;
+}
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+    
+}
+
+.container button{
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background: #553f9a;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.container .index{
+    margin: auto;
+    font-size: 18px;
+}
+
+.container .correct{
+ background: #dffff2;
+ border-color: #00d397;
+ 
+}
+
+.container .wrong{
+    background: #FFEBEB;
+    border-color: #FF4A4A;
+
+} */
+
+.container {
+    max-width: 80%; /* Smaller container size */
+    width: 50%;   /* Reduced width */
+    margin: auto;
+    margin-top: 5vh; /* Reduced margin-top */
+    background-color: #f0f4f8; /* Light blue-gray background */
+    color: #2c3e50;  /* Dark slate-gray text */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    padding: 25px; /* Reduced padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.container h1 {
+    font-size: 32px; /* Smaller font-size for better fit */
+    text-align: center;
+    color: #3498db; /* Vibrant blue accent color */
+    margin-bottom: 10px;
+}
+
+.container hr {
+    height: 2px; /* Reduced height for a cleaner look */
+    border: none;
+    background: #bdc3c7; /* Light gray divider */
+}
+
+.container h2 {
+    font-size: 20px; /* Smaller font-size */
+    font-weight: 600; 
+    color: #34495e; /* Darker shade of gray */
+    margin-bottom: 8px;
+}
+
+.container ul {
+    padding-left: 0; /* Remove default padding */
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    height: 55px; /* Smaller height for better fit */
+    padding-left: 15px;
+    border: 1px solid #ecf0f1; /* Softer border color */
+    border-radius: 6px;
+    margin-bottom: 12px;
+    font-size: 18px; /* Smaller font-size */
+    cursor: pointer;
+    transition: background 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+}
+
+.container ul li:hover {
+    background-color: #eaf2f8; /* Light blue hover effect */
+}
+
+.container button {
+    margin: auto;
+    width: 200px; /* Smaller width */
+    height: 50px; /* Smaller height */
+    background: #2980b9; /* Deep blue button background */
+    color: #fff;
+    font-size: 20px; /* Smaller font-size */
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.container button:hover {
+    background: #3498db; /* Lighter blue on hover */
+}
+
+.container .index {
+    margin: auto;
+    font-size: 16px; /* Smaller font-size */
+    color: #7f8c8d; /* Light gray text */
+    
+}
+
+.container .correct {
+    background: #d5f5e3; /* Light green background */
+    border-color: #27ae60; /* Green border */
+}
+
+.container .wrong {
+    background: #f9e2e2; /* Light red background */
+    border-color: #e74c3c; /* Red border */
+}
+
+#result{
+    text-align: center;
+}
